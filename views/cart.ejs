@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cart</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/feather-icons"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+    </head>
+    
+    <body>
+        <h1 class="center">Cart</h1>
+
+        <div class="main">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Product ID</th>
+                  <th scope="col">Product name</th>
+                  <th scope="col">Card time</th>
+                  <th scope="col">Delete</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <% data.forEach(function(Product){ %>
+                <tr>
+                  <td><%= Product.product_id %></td>
+                  <td><%= Product.product_name %></td>
+                  <td><%= Product.cart_time %></td>
+                  <td><a href="/cart/<%= Product.product_id %>"><button class="btn">Delete</button></a></td>
+                </tr>
+                <% }) %>
+              </tbody>
+            </table>
+            <a href="payment"><button class="btn">Go to Payments</button></a>
+
+          </div>
+          <script>
+            feather.replace()
+          </script>
+    </body>
+
+</html>

@@ -1,0 +1,101 @@
+body {
+    background-color: #EED6C4;
+    background-image: url("/image/sony.jpg");
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #483434;
+    margin: 1rem auto;
+    letter-spacing: 2px;
+}
+
+.btn {
+    margin-left: 84%;
+    margin-bottom: 1rem;
+    background-color: #483434;
+    color: #fff;
+}
+
+.main {
+    margin: auto 3rem;
+}
+
+td {
+    border-color: #777;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+a {
+    color: #333;
+}
+
+.detail {
+    margin: 3rem 20%;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20%;
+}
+
+label {
+    margin-bottom: 0.3rem;
+}
+
+.detail .btn {
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.ul-list {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.btn-form {
+    margin: 0;
+}
+
+.input-form {
+    width: 40%;
+    margin: 0 3rem;
+}
+
+.btn-left {
+    margin-left: 0;
+}
+
+.login {
+    width: 80%;
+    margin-left: 20%;
+    margin-bottom: 3rem;
+}
+
+.h1-main {
+    text-align: left;
+    margin-left: 25%;
+}
+
+.btn-prod {
+    margin: 0;
+}
+
+
+
+
+
+
+
