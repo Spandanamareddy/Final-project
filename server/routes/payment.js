@@ -1,7 +1,7 @@
 const mysqlcon = require('../../connection');
 
 module.exports = function(app) {
-    //------------payment----------
+   
 app.get('/payment', (req, res) => {
     if(thisuser !== '*') {
         var sql='SELECT * FROM payment WHERE UserId = "' + thisuser + '"';
@@ -15,12 +15,12 @@ app.get('/payment', (req, res) => {
     res.redirect('/login');
 });
 
-//-----------payment-form----
+
 app.get('/payment_form', (req, res) => {
     res.render('payment_form');
 })
 
-//-------post-payment-form----
+
 app.post('/payment_form', (req, res) => {
     var cdata = {
         UserId: thisuser,
