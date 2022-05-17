@@ -15,9 +15,6 @@ if(getCurrentUser()) {
     </ul>
   `
 }
-
-
-// Fetch method implementation:
 export async function fetchData(url = '', data = {}, methodType) {
   const response = await fetch(`http://localhost:3000${url}`, {
     method: methodType,
