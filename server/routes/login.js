@@ -1,7 +1,7 @@
 const mysqlcon = require('../../connection');
 
 module.exports = function(app) {
-    //-------------------------LOGIN----------------
+   
 
 app.get('/login', (req, res) => {
     res.render('login');
