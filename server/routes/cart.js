@@ -2,7 +2,7 @@ const mysqlcon = require('../../connection');
 
 module.exports = function(app) {
     var date_ob = new Date();
-    //------------cart----------
+   
 app.get('/cart', (req, res) => {
     if(thisuser !== '*') {
         var sql='SELECT * FROM cart WHERE UserId = "' + thisuser + '"';
@@ -14,7 +14,6 @@ app.get('/cart', (req, res) => {
     res.redirect('/login');
 });
 
-//-------------cart delete--------
 app.get('/cart/:id', (req, res) => {
     hid = req.params.id;
 
@@ -25,7 +24,6 @@ app.get('/cart/:id', (req, res) => {
     res.redirect('/cart');
 });
 
-//-----------add to cart-------------
 app.get('/cart/:id/:pname', (req, res) => {
     if(thisuser !== '*'){
         var data = {
