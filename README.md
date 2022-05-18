@@ -9,9 +9,10 @@ Cofianza website is a  ecommerce site inspired by bigbasket where user can purch
 Source code link :https://github.com/Spandanamareddy/Final-project.git
 Heroku link :https://dashboard.heroku.com/apps/spandana-app
 
-#Admin Features 
-1.Add Product , Delete Product, Edit Product.
-2.View Order
+#Admin Features
+1.Add user , Delete user.
+2.Add Product , Delete Product, Edit product.
+3.View Order
 
 #User Features 
 1.Register
@@ -30,7 +31,7 @@ Heroku link :https://dashboard.heroku.com/apps/spandana-app
 logout/ delete user 
 7. If user click on logout it will come back again to login page or if they click on 
 delete user the user doesn't exist again he needs to register.
-8. Tey can check the reviews of the product.
+8. They can check the reviews of the product.
 
 #Future Updates on the website 
 
@@ -60,7 +61,7 @@ Open Terminal and run the following commands
 2.npm init
 3.npm install express
 4.npm install nodemon --save-dev
-5.npm run dev(open browser u will be connected to server with port 3000 if you want to change port number we can)
+5.npm run dev(open browser u will be connected to server with port localhost:3000 if you want to change port number we can)
 
  For sql database:
  > There is a .env file where one can connect to there own database by using there server credentials(username, password)
