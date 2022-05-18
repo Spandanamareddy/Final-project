@@ -66,7 +66,12 @@ Open Terminal and run the following commands
  For sql database:
  > There is a .env file where one can connect to there own database by using there server credentials(username, password)
 
- Attached the screenshots of login,Register,Homepage,Account,Payment seperately
+ Attached the screenshots of login,Register,Homepage,Account,Payment
+ ![Screenshot (17)](https://user-images.githubusercontent.com/103222225/168937713-0b253599-abc7-410e-a001-9ead7ae40e82.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/103222225/168937738-e27ddd9a-efc6-4942-9903-27161e0bb4b7.png)
+![Screenshot (19)](https://user-images.githubusercontent.com/103222225/168937750-b6aba863-12ed-45dc-93aa-d70c08963925.png)
+![ERD diagram](https://user-images.githubusercontent.com/103222225/168937824-3169a474-97de-4a2b-b956-1c053bfa6059.jpg)
+![Screenshot (21)](https://user-images.githubusercontent.com/103222225/168937887-f4b1ee39-3601-4fe8-9646-fbc89e2a81f5.png)
 
 
  
