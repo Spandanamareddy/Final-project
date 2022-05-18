@@ -52,7 +52,7 @@ Backend :
 Frontend:
 1.JavaScript
 2.CSS
-3.Embedded Javascript
+3.Embedded Javascript(Create HTML Template)
 
 #Run the project 
 
